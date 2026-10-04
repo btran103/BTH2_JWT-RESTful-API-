@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "JwtApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "JwtApi.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtApi.Controllers.HelloController",
+    "Method": "Hello",
+    "RelativePath": "api/hello",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtApi.Controllers.AuthController",
+    "Method": "Auth",
+    "RelativePath": "auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\SOA\\JwtApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|solutionrelative:middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -17,6 +17,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|solutionrelative:controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5822831F-51AF-5960-1E01-920366F701DC}|JwtApi.csproj|c:\\soa\\jwtapi\\data\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,28 +63,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\SOA\\JwtApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\SOA\\JwtApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T00:59:20.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\SOA\\JwtApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\SOA\\JwtApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwDIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T00:58:24.682Z",
+              "WhenOpened": "2026-09-26T09:04:25.838Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HelloController.cs",
+              "DocumentMoniker": "C:\\SOA\\JwtApi\\Controllers\\HelloController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HelloController.cs",
+              "ToolTip": "C:\\SOA\\JwtApi\\Controllers\\HelloController.cs",
+              "RelativeToolTip": "Controllers\\HelloController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T08:57:30.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\SOA\\JwtApi\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\JwtMiddleware.cs",
+              "ToolTip": "C:\\SOA\\JwtApi\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "Middleware\\JwtMiddleware.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T08:57:03.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\SOA\\JwtApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\SOA\\JwtApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T00:59:20.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SOA\\JwtApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\SOA\\JwtApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwDIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T00:58:24.682Z"
             },
             {
               "$type": "Document",
@@ -84,8 +131,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-26T00:58:08.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T00:58:08.496Z"
             },
             {
               "$type": "Document",
@@ -95,14 +141,13 @@
               "RelativeDocumentMoniker": "Services\\JwtService.cs",
               "ToolTip": "C:\\SOA\\JwtApi\\Services\\JwtService.cs",
               "RelativeToolTip": "Services\\JwtService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwC8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T00:57:57.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T00:57:57.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UserData.cs",
               "DocumentMoniker": "C:\\SOA\\JwtApi\\Data\\UserData.cs",
               "RelativeDocumentMoniker": "Data\\UserData.cs",
@@ -110,12 +155,11 @@
               "RelativeToolTip": "Data\\UserData.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAiwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T00:57:12.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T00:57:12.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\SOA\\JwtApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -123,8 +167,7 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T00:56:32.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-26T00:56:32.797Z"
             }
           ]
         }

@@ -21,11 +21,8 @@ builder.Services.AddAuthentication(
                 ValidateLifetime = true,
                 ValidateIssuerSigningKey = true,
 
-                ValidIssuer =
-                    builder.Configuration["Jwt:Issuer"],
-
-                ValidAudience =
-                    builder.Configuration["Jwt:Audience"],
+                ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                ValidAudience = builder.Configuration["Jwt:Audience"],
 
                 IssuerSigningKey =
                     new SymmetricSecurityKey(
@@ -34,13 +31,26 @@ builder.Services.AddAuthentication(
                         )
                     )
             };
+
+        options.Events = new JwtBearerEvents
+        {
+            OnAuthenticationFailed = context =>
+            {
+                Console.WriteLine("================================");
+                Console.WriteLine("JWT ERROR:");
+                Console.WriteLine(context.Exception.Message);
+                Console.WriteLine("================================");
+
+                return Task.CompletedTask;
+            }
+        };
     });
 
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();//
 
 app.UseAuthentication();
 
